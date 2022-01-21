@@ -4,7 +4,7 @@
 package com.projetavisG3.avis.business;
 
 /**
- * @author Administrator
+ * @author Audrey, Andrick, Maria
  *
  */
 public class Classification {
