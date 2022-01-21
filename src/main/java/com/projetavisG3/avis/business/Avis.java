@@ -5,10 +5,23 @@ package com.projetavisG3.avis.business;
 
 import java.time.LocalDateTime;
 
+import javax.persistence.Entity;
+
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+
+
 /**
  * @author Administrator
  *
  */
+@Entity
+@NoArgsConstructor
+@Getter
+@Setter
+
 public class Avis {
 	private Long id;
 	private String description;
@@ -17,10 +30,6 @@ public class Avis {
 	private LocalDateTime dateModeration;
 
 	
-	public Avis() {
-		// TODO Auto-generated constructor stub
-	}
-
 
 	/**
 	 * @param id
